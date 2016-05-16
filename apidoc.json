@@ -1,0 +1,19 @@
+{
+  "name": "HoopLook",
+  "version": "0.1.0",
+  "description": "篮值接口文档",
+  "title": "篮值接口文档",
+  "url" : "https://api_url",
+  "order": [
+    "User",
+    "Activity"
+  ],
+  "header": {
+    "title": "说明",
+    "filename": "./doctemplate/header.md"
+  },
+  "template": {
+    "withCompare": true,
+    "withGenerator": true
+  }
+}
