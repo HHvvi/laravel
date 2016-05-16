@@ -52,7 +52,7 @@ return [
     |
     */
 
-    'timezone' => 'Asia/Shanghai',
+    'timezone' => 'UTC',
 
     /*
     |--------------------------------------------------------------------------
@@ -65,7 +65,7 @@ return [
     |
     */
 
-    'locale' => 'zh-cn',
+    'locale' => 'en',
 
     /*
     |--------------------------------------------------------------------------
@@ -108,7 +108,7 @@ return [
     |
     */
 
-    'log' => env('APP_LOG', 'daily'),
+    'log' => env('APP_LOG', 'single'),
 
     /*
     |--------------------------------------------------------------------------
@@ -156,13 +156,6 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
 
-        Dingo\Api\Provider\LaravelServiceProvider::class,
-        Prettus\Repository\Providers\RepositoryServiceProvider::class,
-        Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider::class,
-        Tymon\JWTAuth\Providers\JWTAuthServiceProvider::class,
-
-        Latrell\RongCloud\RongCloudServiceProvider::class,
-        Lance\Cloud\CloudServiceprovider::class,
     ],
 
     /*
@@ -209,10 +202,6 @@ return [
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
 
-        'Api' => Dingo\Api\Facade\API::class,
-        'JWTAuth' =>Tymon\JWTAuth\Facades\JWTAuth::class,
-        'RongCloud' => Latrell\RongCloud\Facades\RongCloud::class,
-        'Cloud' => Lance\Cloud\Facades\Cloud::class,
     ],
 
 ];

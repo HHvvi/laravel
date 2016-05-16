@@ -1,37 +1,27 @@
-#篮值1.0API
+# Laravel PHP Framework
 
-##CRUD
+[![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
+[![Total Downloads](https://poser.pugx.org/laravel/framework/d/total.svg)](https://packagist.org/packages/laravel/framework)
+[![Latest Stable Version](https://poser.pugx.org/laravel/framework/v/stable.svg)](https://packagist.org/packages/laravel/framework)
+[![Latest Unstable Version](https://poser.pugx.org/laravel/framework/v/unstable.svg)](https://packagist.org/packages/laravel/framework)
+[![License](https://poser.pugx.org/laravel/framework/license.svg)](https://packagist.org/packages/laravel/framework)
 
-##API
+Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as authentication, routing, sessions, queueing, and caching.
 
-* **清除API缓存**
+Laravel is accessible, yet powerful, providing tools needed for large, robust applications. A superb inversion of control container, expressive migration system, and tightly integrated unit testing support give you the tools you need to build any application with which you are tasked.
 
-```
-php artisan api:cache
-```
+## Official Documentation
 
-* **生成CRUD套件**
+Documentation for the framework can be found on the [Laravel website](http://laravel.com/docs).
 
-```
-php artisan make:entity Activity
-```
+## Contributing
 
-##生成API文档
+Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](http://laravel.com/docs/contributions).
 
-* **需要安装apidoc**
+## Security Vulnerabilities
 
-```
-npm install apidoc -g
-```
-* **在根目录下执行**
+If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
 
-```
-apidoc -i app/ -o apidoc/ -t doctemplate/
-```
+## License
 
-**接口文档小版本号修改**
-
-历史接口文档复制_apidoc.js文件的History区域下
-
-方便对比文档
-
+The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
